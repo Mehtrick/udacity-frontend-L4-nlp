@@ -1,6 +1,6 @@
 function checkForName(inputText) {
     if (!inputText || inputText.length===0 || inputText.trim().length===0){
-        alert("Please insert a text")
+        alert("Please insert a text");
         return false;
     }
     let names = [
@@ -9,12 +9,12 @@ function checkForName(inputText) {
         "Kirk",
         "Archer",
         "Georgiou"
-    ]
+    ];
 
     if(names.includes(inputText)) {
-        alert("Welcome, Captain!")
+        alert("Welcome, Captain!");
     }
     return true;
 }
 
-export { checkForName }
+export { checkForName };
