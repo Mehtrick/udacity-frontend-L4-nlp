@@ -1,5 +1,5 @@
 function checkForName(inputText) {
-    if (inputText.length===0 || inputText.trim().length===0){
+    if (!inputText || inputText.length===0 || inputText.trim().length===0){
         alert("Please insert a text")
         return false;
     }
